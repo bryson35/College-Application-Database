@@ -71,15 +71,7 @@ Insert into Student values (321, 'Lori', null, 2500);
 SELECT * 
 FROM Student;
 
-SELECT COUNT(*)
-FROM Student;
 
-SELECT count(GPA)
-FROM Student;
-
-/*Delete Students that have a NULL GPA*/
-SET SQL_SAFE_UPDATES = 0;
-DELETE FROM Student WHERE GPA is null;
 
 
 
